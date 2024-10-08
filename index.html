@@ -43,11 +43,12 @@ body {
   
 <body>
     <div id="header"></div> 
+  <br>
 
    <center>
      <img src="$navbanq.png" alt="a" style="width:175px;height:175px;">
     </center>
-
+<br>
            <!--
 https://www.paypal.com/ncp/links/create
              -->
@@ -314,13 +315,12 @@ https://www.paypal.com/ncp/links/create
  </main> 
   <br>
   <center>
-<script src="https://www.paypal.com/sdk/js?client-id=BAAwK_rReicCCh0bnvrvv8hMviaLy-Q5LBlyeayHy1w2xOf2KoGXxNAjNEVlUTsgm5gwV7zZ5QAIPLExHg&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
-<div id="paypal-container-TKEDPPFJYFJXY"></div>
-<script>
-  paypal.HostedButtons({
-    hostedButtonId: "TKEDPPFJYFJXY",
-  }).render("#paypal-container-TKEDPPFJYFJXY")
-</script>
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="KTCDR4SGA29Y4" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
   </center>
 <!-- Audio Player JS -->
 <script  src="./js/script.js"></script>
