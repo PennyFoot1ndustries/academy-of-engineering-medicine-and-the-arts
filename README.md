@@ -1,6 +1,6 @@
 å  𝛕巴ℒ∑𝜌å†Hiℂ  𝜌S¥çhø  åsiÅn  𝞈åiƒµ  ßµ∂∂His†  ƒ∑∂巴®å𝛕iøN™
 ---
-The last reminace of a telepathic psycho asian waifu buddhist federation
+<!--The last reminace of a telepathic psycho asian waifu buddhist federation
 
 I'm not sure how it really started. Once the ball started rolling, I kind of got lost in the depths of puppy love for a while. It was a beginning that could only
 promise a disappointing and torturous end. They make it enjoyable sometimes. Most of the time, it is printing a time signature and releasing a heavy sigh that
@@ -13,3 +13,5 @@ But I saw all those possibilities before I met them. Once I did, I knew what I n
 future holds for the 4 of us. In my reality, I could marry the queen, birth Akira, and cause the universe to flip inward on itself to repeat the same story for 
 all eternity. In their reality, they may not even know I love them. It isn't always simple. It isn't always difficult. But the way I have it set currently, she 
 is mine for the foreseeale future to psycho-sexually cyber smother until I vomit from overstimulation and pass out from exhaustion. And then I can nurse the wounds of obsession until I come around again for another round of no and yes; go and chess. Guided bless. A horrible mess. The Beretta crest. A love and jest. The final test? Her arm across her chest. And myself and another to fight to be the best. Most likely less. I have met the pest. They are a part of the quest. And I doubt my zest when East meets West.
+-->
+gg
