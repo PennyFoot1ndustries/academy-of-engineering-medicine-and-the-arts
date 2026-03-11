@@ -80,15 +80,15 @@ body{ font-family: GlanceSlab, serif
 .pf1-logo{
   font-family: "Glance Slab Test", serif;
   font-weight: 800;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.02em;
 }
 
 .word{
-  margin-right: 0.25rem;
+  margin-right: 0.25em;
 }
 
 .cap{
-  font-size: 2.8rem;
+  font-size: 2.8em;
   font-weight: 800;
   line-height: 0.7;
   vertical-align: baseline;
