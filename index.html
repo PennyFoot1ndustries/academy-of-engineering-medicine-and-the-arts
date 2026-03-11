@@ -4,6 +4,24 @@
     <style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      navBanq">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.cdnfonts.com/css/glance-slab-test" rel="stylesheet">
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-69P721FCCG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-69P721FCCG');
+</script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
+<script>  
+$(function(){ 
+  $("#header").load("header.html");  
+  $("#footer").load("footer.html");  
+}); 
+</script>
 <title>Carousel Navigation</title>
       <style>
       body {
@@ -17,7 +35,6 @@
     height: 100vh;
     transition: transform 0.5s ease-in-out;
   }
-
   .slide {
     min-width: 100vw;
     height: 100vh;
@@ -27,11 +44,9 @@
     font-size: 2.5rem;
     color: white;
   }
-
   .slide:nth-child(1) { background: #1e1e2f; }
   .slide:nth-child(2) { background: #1e1e2f; }
   .slide:nth-child(3) { background: #1e1e2f; }
-
   .controls {
     position: fixed;
     bottom: 20px;
@@ -40,7 +55,6 @@
     display: flex;
     gap: 10px;
   }
-
   button {
     padding: 8px 14px;
     border: none;
@@ -49,21 +63,9 @@
     background: #ffffff22;
     color: white;
   }
-
   button:hover {
     background: #ffffff44;
   }
-
-   <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Montserrat&family=Inconsolata&display=swap" rel="stylesheet">
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-h1, h2 {
-  font-family: 'Orbitron', sans-serif;
-}
-code {
-  font-family: 'Inconsolata', monospace;
-}
 </style>
 </head>
 
