@@ -69,7 +69,7 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 }
 @font-face {
   font-family: 'GlanceSlab';
-  src: url('./FONTS/GlanceSlabTest-Black.otf') format('otf'),
+  src: url('./FONTS/GlanceSlabTest-Black.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
