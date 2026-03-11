@@ -76,3 +76,21 @@ a,a:hover,a:visited{color:#ddd;text-decoration:none;}
 }
 body{ font-family: GlanceSlab, serif
     }
+
+.pf1-logo{
+  font-family: "Glance Slab Test", serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.word{
+  margin-right: 0.25em;
+}
+
+.cap{
+  font-size: 2.8em;
+  font-weight: 800;
+  line-height: 0.8;
+  vertical-align: baseline;
+  margin-right: -0.04em;
+}
