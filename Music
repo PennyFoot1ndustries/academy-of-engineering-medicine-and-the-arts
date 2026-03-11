@@ -1,0 +1,23 @@
+<DOCHTML
+
+
+<main>
+ 
+<!-- MUSIC PLAYER -->
+<div class="simple-audio-player" id="simp" data-config='{"shide_top":false,"shide_btm":false,"auto_load":false}'>
+<div class="simp-playlist">
+<ul>  
+<li><span class="simp-source" data-src=
+"MUSIC/Long Pause.mp3"><img src="PNGs/Long Pause.png" alt="Long Pause" style="width:200px;height:100px;"></li><li><span class="simp-source" data-src=
+"MUSIC/Giddyup.mp3"><img src="PNGs/Giddyup_basement tapes.png" alt="Giddyup_basement tapes" style="width:200px;height:100px;"></li><li><span class="simp-source" data-src=
+"MUSIC/02 social security number.mp3"><img src="PNGs/Social Security Number.png" alt="Social Security Number" style="width:200px;height:100px;"></li><li><span class="simp-source" data-src=
+"MUSIC/01 this microphone alone.mp3"><img src="PNGs/This Microphone Alone.png" alt="This Microphone Alone" style="width:200px;height:100px;"></li><li><span class="simp-source" data-src=
+"MUSIC/02 Mad Capsule Hook.mp3"><img src="PNGs/Mad Capsule Hook.png" alt="Mad Capsule Hook" style="width:200px;height:100pxpx;"></li><li><span class="simp-source" data-src=
+"MUSIC/03 Our Song [Extended].mp3"><img src="PNGs/Our Song [Extended].png" alt="Our Song [Extended]" style="width:200px;height:100pxpx;"></li><li><span class="simp-source" data-src=
+"MUSIC/05 Bang Ding Oww.mp3"><img src="PNGs/Bang Ding Oww.png" alt="Bang Ding Oww" style="width:200px;height:100pxpx;"></li><li><span class="simp-source" data-src=
+</ul>
+</div>
+ </main>
+<!-- Audio Player JS -->
+<script  src="./js/script.js"></script>
+</html>
