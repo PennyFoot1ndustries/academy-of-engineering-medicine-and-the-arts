@@ -1,1 +1,115 @@
-p
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carousel Navigation</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    overflow: hidden;
+  }
+
+  .carousel {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .slide:nth-child(1) { background: #1e1e2f; }
+  .slide:nth-child(2) { background: #1e1e2f; }
+  .slide:nth-child(3) { background: #1e1e2f; }
+
+  .controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+
+  button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #ffffff22;
+    color: white;
+  }
+
+  button:hover {
+    background: #ffffff44;
+  }
+</style>
+</head>
+
+<body>
+
+<div id="carousel" class="carousel">
+  <div class="slide">
+     <iframe src="https://github.com/sponsors/saisonxiang/button" title="Sponsor saisonxiang" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+   
+  </div>
+  <div class="slide">Projects
+    <br>
+    <br>
+ • Derived fuel efficiency of a Toyota Yaris to 50 mile/gal via field measurements
+  <br>
+    <br>
+  • Assembled a quasi fixed point vice with scrap metal clevised to a steel post embedded in a concrete slab.
+ <br>
+    <br>
+  • Sane/sober/safe ride for randos in the University NorthEast Quandrant
+  <br>
+    <br>
+  • I let you be in my universe if i can be in yours...
+ 
+</div>
+  <div class="slide">Contact
+  <br>
+    <br>
+  <a href= "mailto: navbanq@proton.me">Click dis to write @</a>
+  </div>
+</div>
+
+<div class="controls">
+  <button onclick="prev()">Prev</button>
+  <button onclick="next()">Next</button>
+</div>
+
+<script>
+  const carousel = document.getElementById("carousel");
+  let index = 0;
+  const totalSlides = document.querySelectorAll(".slide").length;
+
+  function updateCarousel() {
+    carousel.style.transform = `translateX(-${index * 100}vw)`;
+  }
+
+  function next() {
+    index = (index + 1) % totalSlides;
+    updateCarousel();
+  }
+
+  function prev() {
+    index = (index - 1 + totalSlides) % totalSlides;
+    updateCarousel();
+  }
+</script>
+
+</body>
+</html>
